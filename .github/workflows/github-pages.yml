@@ -14,7 +14,7 @@ jobs:
     # At a minimum this job should upload artifacts using actions/upload-pages-artifact
     steps:
       - name: Get index.html from repository
-        uses: action/checkout@v4
+        uses: actions/checkout@v4
         with:
           sparse-checkout: |
             index.html
