@@ -2,6 +2,7 @@
 
 ![Cowsay running](https://github.com/o-devops/doc/actions/workflows/cowsay.yml/badge.svg)
 [![Super-Linter](https://github.com/o-devops/doc/actions/workflows/linter.yml/badge.svg)](https://github.com/marketplace/actions/super-linter)
+[![github pages](https://github.com/L-Christ-ASD/doc/actions/workflows/github-pages.yml/badge.svg)](https://github.com/marketplace/actions/github pages)
 
 La documentation de notre formation DevOps
 
