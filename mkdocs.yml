@@ -1,10 +1,10 @@
 site_name: DevOps Docs
 site_description: Documentations autour de la CI/CD et de Github
 site_url: http://localhost
-site_author: Aurelien
+site_author: Christ
 
-repo_name: o-devops/doc
-repo_url: https://github.com/o-devops/doc
+repo_name: L-Christ-ASD/deploy_mkdocs
+repo_url: https://github.com/L-Christ-ASD/deploy_mkdocs
 
 theme:
   name: material
@@ -34,7 +34,7 @@ theme:
     - toc.integrate
 
 nav:
-  - Accueil: /
+  - Accueil: ./
   - Github:
     - Gestion de compte: github/account.md
     - Les hooks git: github/git-hooks.md
