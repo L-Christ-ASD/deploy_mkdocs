@@ -78,6 +78,9 @@ jobs:
         uses: actions/deploy-pages@v4 # or specific "vX.X.X" version tag for this action
 ```
 
+!!! warning
+    Il faut penser à activer les github page via Github Action dans le dépôt concerné, si ce n'est pas le cas suivez le message d'erreur qui vous indiquera ce qu'il faut faire.
+
 ## Logique DevOps
 
 Notre méthode de travail avec Github page permet de proposer à la fois un environnement de développement local et un environnement de déploiement en production.
