@@ -32,7 +32,7 @@ jobs:
 
       - run: docker build --target build -t mkdocs-builder .
 
-      - run: docker container run -rm -v ./site:/app/site mkdocs-builder
+      - run: docker container run -rm --v ./site:/app/site mkdocs-builder
 
       - name: Upload static files as artifact
         id: deployment
